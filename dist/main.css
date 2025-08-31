@@ -91,7 +91,7 @@
 
 .button--primary {
     background-color: red;
-    color: white;
+    color: #080808;
 }
 
 .button--secondary {
@@ -142,6 +142,7 @@
     background-color: var(--darkColor);
 
     p {
+        color: #ababab;
         padding: 0 0 0 38%;
         justify-content: safe center;
         font-weight: bold;
@@ -157,7 +158,6 @@
     background-color: #4e6542;
 
     p {
-        color: var(--primaryColor);
         text-shadow: 1px 1px 2px var(--shadow);
     }
 }
@@ -189,8 +189,7 @@
         background-color: var(--lightBG);
     }
 
-    .latest-projects h1,
-    .projectCard p {
+    .latest-projects h1 {
         color: var(--primaryColor);
     }
 }
@@ -212,10 +211,6 @@
 
     .header__logo {
         background-color: blanchedalmond;
-    }
-
-    .projectCard p {
-        color: var(--primaryColor);
     }
 }
 
@@ -326,4 +321,5 @@
     .projectCard {
         margin: auto;
     }
+
 }
